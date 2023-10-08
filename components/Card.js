@@ -1,25 +1,31 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 
 function Card({ company, title, date, content }) {
   const [expanded, setExpanded] = useState(false);
   const [maxHeight, setMaxHeight] = useState("400px");
+  const isMobile = typeof window !== "undefined" && window.innerWidth <= 768;
+
   const toggleContent = () => {
-    if (window.innerWidth <= 768) {
+    if (isMobile) {
       setExpanded(!expanded);
+      setMaxHeight(expanded ? "400px" : "550px");
     }
   };
 
   useEffect(() => {
-    console.log(window.innerWidth);
-  }, [expanded]);
+    if (!isMobile) {
+      setMaxHeight("none");
+    }
+  }, []);
+
   return (
     <article
       className={`card ${expanded ? "expanded" : ""}`}
       onClick={toggleContent}
       style={{
-        maxHeight:
-          window.innerWidth <= 768 ? (expanded ? "550px" : "400px") : "none",
+        maxHeight,
       }}
     >
       <div className="card-inner">
