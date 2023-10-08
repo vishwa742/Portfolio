@@ -75,6 +75,9 @@ body {
 
                 .bigText {
                     font-size: x-large;
+                    @media (max-width: 768px) {
+                        min-height: 190px;
+                    }
                 }
     
                 .img-face {

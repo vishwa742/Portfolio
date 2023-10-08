@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <div>
       <div className="education-container">
-        <div className="container1">
+        <div id="education" className="container1">
           <h1>Education:</h1>
         </div>
         <div className="container">

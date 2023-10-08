@@ -8,7 +8,7 @@ function Sticky() {
       <div className="content">
         <div className="content-title">
           <img src="/images/vishwanath.png" className="img-face" />
-          <span className="bigText">
+          <div className="bigText">
             <h1>
               <TypewriterText
                 text="Hi, I&#39;m Vishwanath Ezhil."
@@ -16,7 +16,7 @@ function Sticky() {
               />
               <br />
             </h1>
-          </span>
+          </div>
           <div className="bio-body">
             <h3>
               I am a Software Engineer located in New Jersey and I&#39;ve been
