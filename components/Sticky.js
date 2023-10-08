@@ -1,6 +1,7 @@
 import React from "react";
 import "./sticky.css";
-
+import "../node_modules/font-awesome/css/font-awesome.min.css";
+import TypewriterText from "./Typewriter";
 function Sticky() {
   return (
     <div className="left">
@@ -9,7 +10,11 @@ function Sticky() {
           <img src="/images/vishwanath.png" className="img-face" />
           <span className="bigText">
             <h1>
-              Hi, <br /> I&#39;m Vishwanath Ezhil.
+              <TypewriterText
+                text="Hi, I&#39;m Vishwanath Ezhil."
+                typingSpeed={50}
+              />
+              <br />
             </h1>
           </span>
           <div className="bio-body">
@@ -25,10 +30,10 @@ function Sticky() {
 
           <div className="row social">
             <a target="blank" href="https://www.linkedin.com/in/e-vishwanath/">
-              <i className="fab fa-linkedin"></i>
+              <i className="fa fa-linkedin"></i>
             </a>
             <a target="blank" href="https://github.com/vishwa742">
-              <i className="fab fa-github"></i>
+              <i className="fa fa-github"></i>
             </a>
             <a target="blank" href="mailto:ezhilvishwanath@gmail.com">
               <i className="fa fa-envelope"></i>

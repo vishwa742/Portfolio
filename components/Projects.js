@@ -14,17 +14,17 @@ export default function Projects() {
                 <h2>Ticket Booker</h2>
               </header>
               <div className="emp-data2">
-                <div>
-                  <h3>
-                    • Built a React application to book movie tickets for movies
+                <ul>
+                  <li>
+                    {" "}
+                    Built a React application to book movie tickets for movies
                     currently playing in theatres.
-                  </h3>
-                </div>
-                <div>
-                  <h3>
-                    • Technologies used: ReactJS, NodeJS, JavaScript, HTML, CSS
-                  </h3>
-                </div>
+                  </li>
+                  <li>
+                    {" "}
+                    Technologies used: ReactJS, NodeJS, JavaScript, HTML, CSS
+                  </li>
+                </ul>
               </div>
               <div className="emp-data3">
                 <div>
@@ -48,18 +48,18 @@ export default function Projects() {
                 <h2>Restaurant Finder</h2>
               </header>
               <div className="emp-data2">
-                <div>
-                  <h3>
-                    • Designed a website to find restaurants across the United
+                <ul>
+                  <li>
+                    {" "}
+                    Designed a website to find restaurants across the United
                     States based on address or a city name.
-                  </h3>
-                </div>
-                <div>
-                  <h3>
-                    • Technologies used: Flask, Python, NumPy, Pandas, HTML,
+                  </li>
+                  <li>
+                    {" "}
+                    Technologies used: Flask, Python, NumPy, Pandas, HTML,
                     JavaScript, CSS
-                  </h3>
-                </div>
+                  </li>
+                </ul>
               </div>
               <div className="emp-data3">
                 <div>
@@ -75,41 +75,6 @@ export default function Projects() {
                     className="btnn"
                     href="https://restaurant-finder-vish.herokuapp.com/"
                   >
-                    View Website
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article className="card">
-              <header className="card-header">
-                <h2>Airplane Boarding Visualizer</h2>
-              </header>
-              <div className="emp-data2">
-                <div>
-                  <h3>
-                    • A Visualization Project built on React.js to compare the
-                    most effective and the least effective airplane boarding
-                    techniques.
-                  </h3>
-                </div>
-                <div>
-                  <h3>
-                    • Technologies used: ReactJS, NodeJS, JavaScript, HTML, CSS
-                  </h3>
-                </div>
-              </div>
-              <div className="emp-data3">
-                <div>
-                  <a
-                    className="btnn"
-                    href="https://github.com/vishwa742/Airplane-Boarding-Visualizer"
-                  >
-                    Github
-                  </a>
-                </div>
-                <div>
-                  <a className="btnn" href="https://airplane-vis.netlify.app/">
                     View Website
                   </a>
                 </div>
