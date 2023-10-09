@@ -2,12 +2,19 @@ import React from "react";
 import "./sticky.css";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
 import TypewriterText from "./Typewriter";
+import Image from "next/image";
 function Sticky() {
   return (
     <div className="left">
       <div className="content">
         <div className="content-title">
-          <img src="/images/vishwanath.png" className="img-face" />
+          <Image
+            src="/images/vishwanath.png"
+            alt="Vishwanath's Face"
+            className="img-face"
+            width={150}
+            height={150}
+          />
           <div className="bigText">
             <h1>
               <TypewriterText
