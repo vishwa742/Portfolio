@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import "./Header.css";
+import "./header.css";
 
 function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
