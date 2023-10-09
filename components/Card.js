@@ -18,7 +18,7 @@ function Card({ company, title, date, content }) {
     if (!isMobile) {
       setMaxHeight("none");
     }
-  }, []);
+  }, [isMobile]);
 
   return (
     <article
